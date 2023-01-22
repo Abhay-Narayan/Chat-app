@@ -8,7 +8,7 @@ import ChannelContainer from 'components/ChannelContainer';
 import Auth from 'components/Auth';
 
 
-const apiKey = 'zyan4ey5umv3';
+const apiKey = 'your_api_key'; //Get your api key from stream chat website
 const authToken=false;
 const client = StreamChat.getInstance(apiKey);
 const App = ()=> {
